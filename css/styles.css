@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+}
+.attribution {
+    margin-top: .5%;
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.mainContainer {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.295);
+    width: 20%;
+    border-radius: 15px;
+    color: hsl(151%, 55%, 55%);
+    background-color: white;
+    overflow: hidden;
+}
+.coverImg img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+div.stats {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+    font-size: 18px;
+    margin-top: 2%;
+    padding-left: 25%;
+    color: hsl(151%, 55%, 55%);
+}
+.followers {
+    display: block;
+    margin-left: -45px;
+    margin-bottom: 15px;
+}
+.followers p {
+    font-weight: 200;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    margin-top: -17px;
+}
+.likes {
+    display: block;
+    margin-left: 63px;
+}
+.likes p {
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: -17px;
+    letter-spacing: 1.2px;
+}
+.photos {
+    margin-left: 60px;
+}
+.photos p {
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: -17px;
+    letter-spacing: 1.2px;
+}
+
+
+.profileImg img {
+    width: 25%;
+    border-radius: 100px;
+    border: 5px solid white;
+    position: relative;
+    bottom: 55px;
+    margin-bottom: -50px;
+}
+.nameAge p b {
+    font-size: 18px;
+}
+.nameAge p {
+    font-weight: 200;
+}
+.from h5 {
+    font-weight: 200;
+    margin-top: -5px;
+}
+.bgImgOne {
+    position: absolute;
+    z-index: 0;
+    left: -50px;
+    bottom: 400px;
+}
+.bgImgOne img {
+}
+.bgImgTwo {
+    position: absolute;
+    z-index: 0;
+    right: 60px;
+    top: 500px;
+}
+.bgImgTwo img {
+    width: 150%;
+}
+
+@media screen and (max-width: 1440px) {
+    .followers { margin-left: -40px; }
+    .likes { margin-left: 32px; }
+    .photos { margin-left: 40px; }
+    .profileImg img { margin-top: 4%; }
+}
+@media screen and (max-width: 375px) {
+    .mainContainer { display: block; width: 100%; margin-top: 65%; }
+    .followers { margin-left: -50px; }
+    .likes { margin-left: 58px; }
+    .photos { margin-left: 68px; }
+    .attribution { margin-top: 2%; }
+}
